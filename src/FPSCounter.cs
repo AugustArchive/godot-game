@@ -11,6 +11,11 @@ public class FPSCounter: Label
     public override void _Process(float delta)
     {
         var fps = Performance.GetMonitor(Performance.Monitor.TimeFps);
-        Text = $"FPS: {fps}";
+        UpdateText($"FPS: {fps}");
+    }
+
+    public void UpdateText(string text)
+    {
+        Text = text;
     }
 }
