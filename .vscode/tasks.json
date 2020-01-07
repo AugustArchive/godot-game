@@ -6,7 +6,7 @@
         {
             "label": "Run Godot",
             "type": "shell",
-            "command": "~/Downloads/Godot_v3.1.2-stable_mono_x11_64/Godot_v3.1.2-stable_mono_x11.64 src/main.tscn",
+            "command": "~/Downloads/Godot_v3.1.2-stable_mono_x11_64/Godot_v3.1.2-stable_mono_x11.64 src/Game.tscn",
             "problemMatcher": []
         }
     ]
